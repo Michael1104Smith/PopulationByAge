@@ -1,0 +1,77 @@
+.left-side{
+    width: 80%;
+    float:left;
+}
+.right-side{
+    width: 20%;
+    float:left;
+}
+#tooltip{
+    display: none;
+    position: absolute;
+    font-size: 25px;
+}
+#custom-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+}
+#slider{
+    width: 100%;
+}
+#container{
+    width: 100%;
+    height: 500px;
+}
+.vzb-show-list{
+    margin-top:50px;
+    width:300px;
+    height:200px;
+    overflow-y: scroll;
+}
+.vzb-show-list .vzb-separator {
+    padding-bottom: 25px;
+    border-bottom: 1px solid;
+    border-bottom-color: #9fbbc1;
+}
+.vzb-dialog-checkbox {
+    display: block;
+    height: 18px;
+    margin: 6px 0;
+    position: relative;
+}
+.vzb-dialog-checkbox label {
+    position: absolute;
+    top: 0;
+    padding-right: 1px;
+    white-space: nowrap;
+    cursor: pointer;
+    max-width: 100%;
+    text-indent: 27px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color .3s;
+}
+.search_overlay {
+    background:url('../img/overlay-bk.png') repeat;
+    width:100%;
+    height:1476px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    display:none;
+    text-align:center;
+    z-index:999999;
+}
+.search_overlay i {
+    font-size:80px;
+    font-weight:bold;
+    color:#666;
+    position: fixed;
+    top:44%;
+    left:50%;
+}
